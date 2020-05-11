@@ -16,7 +16,7 @@ var app = new function() {
       return this.el.innerHTML = data;
     };
 
-    //add method
+    //add 
     this.Add = function () {
       el = document.getElementById('add_Task');
       var Task = el.value;
@@ -27,7 +27,7 @@ var app = new function() {
       }
     };
   
-    //delete method
+    //delete
     this.Delete = function (item) {
       this.todo.splice(item, 1);
       this.FetchAll();
