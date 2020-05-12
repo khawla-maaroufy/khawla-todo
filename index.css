@@ -1,6 +1,6 @@
 .bg {
     background-color: #6394ef ;
-    height: calc(100vh - 1px);
+    min-height: 1000px;
     position: relative;
 }
 .container {
@@ -10,7 +10,7 @@
     top: 100px;
     right:400px ;
     width: 600px;
-    height: 400px;
+    min-height: 400px;
     color: white;
 } 
 h1 {
